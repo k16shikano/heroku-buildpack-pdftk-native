@@ -12,7 +12,7 @@ if [[ "$STACK" != "heroku-24" ]]; then
 fi
 
 # Download or copy the prebuilt pdftk binary from your repository
-cp binaries/pdftk $BUILD_DIR/bin/pdftk
+cp binary/pdftk $BUILD_DIR/bin/pdftk
 
 # Make the binary executable
 chmod +x $BUILD_DIR/bin/pdftk
