@@ -12,5 +12,5 @@ Modify `docker/Dockerfile` so as to use the latest Heroku stack. Then build and 
 
 ```sh
 $ sudo docker build -t pdftk-graalvm ./docker
-$ sudo docker run -it --user root -v $(pwd)/binaries:/app/binary pdftk-graalvm
+$ sudo docker run -it --user root -v $(pwd)/binary:/app pdftk-graalvm
 ```
